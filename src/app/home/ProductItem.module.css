@@ -1,0 +1,67 @@
+.card {
+  padding: 20px;
+  width: 100%; /* Changed from 100%px to 100% */
+  max-width: 300px;
+  border-radius: 20px;
+  background: #f6f3f3;
+  margin: 0 5px;
+  box-shadow: 5px 5px 6px #dadada, -5px -5px 6px #f6f6f6;
+  transition: transform 0.4s, box-shadow 0.4s;
+  box-sizing: border-box;
+  overflow: hidden; /* To prevent overflowing content */
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 12px #dadada, -10px -10px 12px #f6f6f6;
+}
+
+.cardTitle {
+  font-size: 18px; /* Increased font size */
+  font-weight: 600;
+  color: #2e54a7;
+  margin: 15px 0 10px 10px;
+  text-align: center;
+}
+
+.cardImage {
+  height: 170px;
+  border-radius: 15px;
+  box-shadow: inset 8px 8px 10px #c3c3c3, inset -8px -8px 10px #cfcfcf;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px; /* Add some space below the image */
+}
+
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.cardImage:hover img {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.cardBody {
+  margin: 10px 0 0 10px;
+  color: #1f1f1f;
+  font-size: 15px;
+}
+
+.footer {
+  float: right;
+  margin: 28px 0 0 18px;
+  font-size: 13px;
+  color: #636363;
+}
+
+.byName {
+  font-weight: 700;
+  margin-left: 5px;
+}

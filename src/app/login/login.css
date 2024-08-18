@@ -1,0 +1,120 @@
+.login-container {
+    display: flex;
+    justify-content: center; /* Horizontally centers the form */
+    align-items: center;    /* Vertically centers the form */
+    height: 100vh;          /* Full viewport height */
+}
+
+.body-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-login {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-title h1 {
+    margin-bottom: 10px;
+}
+
+.form-body {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember-fogot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-footer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-footer button:hover {
+    background-color: #0056b3;
+}
+
+.form-footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+.social-login {
+    text-align: center;
+}
+
+.button-login-social-network {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button-login-social-network .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-google {
+    background-color: #dd4b39;
+}
+
+.btn-google img {
+    margin-right: 10px;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-facebook img {
+    margin-right: 10px;
+}
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
